@@ -48,3 +48,5 @@ def decode(integer: int, password: str):
     for i in l2:
         output += chr(i)
     return output
+
+print(encode('1145141919810aaa', '%2'))
